@@ -23,10 +23,10 @@ public class HiLo {
                     System.out.println(guess + " больше." + "Попробуйте снова.");
                 else
                     System.out.println(guess + " правильно." + " Вы выиграли!");
-                numberOfTries = numberOfTries + 1;
+                numberOfTries = numberOfTries + 1; //Подсчитать попыток.
             }
 
-            if (guess == number)
+            if (guess == number) //Сообщить о том, сколько попыток потребовалось пользователю, чтобы угадать число.
                 System.out.println("Вам потребовалось всего " + numberOfTries + " попыток! Хорошая работа!");
 
             // Спросить пользователя, хочет ли он снова сыграть в игру.
